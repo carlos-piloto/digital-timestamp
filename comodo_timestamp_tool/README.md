@@ -11,4 +11,4 @@ Below are listed and explained the several steps involved in the timestamp proce
  - Generate with openssl the request content that needs to be sent to the timestamp server.
  - Send the previous request to the server with a tool like curl or similar and save the response.
  - This step is optional and the goal is to show its content in human readable format.
- - The last and not less important is to verify that that response is valid. This validation is made with the public certificates of COMODO.
+ - The last and not less important is to verify that that response is valid. This validation is made with the public certificates of COMODO, in order to validate correctly in the crt file it must be localted the public COMODO certificate and the public certificate of the issuer of the COMODO certificate.
