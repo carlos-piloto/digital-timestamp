@@ -7,7 +7,7 @@ You need to download the following tools in order to test the .bat script:
 
 # Main steps for timestamp:
 
-Below are listed and explained the several steps involved in the timestamp process. you can check in the script [a relative link](comodo_timestamp_file.bat) all these steps with the required command line.
+Below are listed and explained the several steps involved in the timestamp process. you can check in the script [comodo_timestamp_file.bat](comodo_timestamp_file.bat) all these steps with the required command line.
  - Generate with openssl the request content that needs to be sent to the timestamp server.
  - Send the previous request to the server with a tool like curl or similar and save the response.
  - This step is optional and the goal is to show its content in human readable format.
