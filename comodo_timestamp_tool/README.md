@@ -1,6 +1,6 @@
 # Tool requirements:
 
-You need to download the following tools:
+You need to download the following tools in order to test the .bat script:
  - openssl from https://wiki.openssl.org/index.php/Binaries
  - curl from https://curl.haxx.se/download.html
  
