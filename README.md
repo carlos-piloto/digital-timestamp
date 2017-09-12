@@ -1,4 +1,4 @@
-# digital-timestamp
+# Digital timestamp
 
 Sometimes you do not need to digital timestamp files with the standard tools like signtool.exe, instead you need to obtain the timestamp and save it in a different place.
 
@@ -6,5 +6,5 @@ This is a demonstration project to digital time-stamp files with the common cert
   - OpenSSL
   - curl
 
-# Content repository:
+## Content repository:
   - comodo_timestamp_tool: how to get timestamp of files with COMODO public CA.
